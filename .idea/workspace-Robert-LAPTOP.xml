@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1adbc2c9-089d-4f47-8c98-d8b33ebf9270" name="Changes" comment="Bug FIXES">
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distance.js" beforeDir="false" afterPath="$PROJECT_DIR$/distance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/gui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/modal.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2zjO6RRq6H5MZ4iZZV09kVobCiG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rober/OneDrive/Projekty-WEB/VoiceliftApp_v2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1adbc2c9-089d-4f47-8c98-d8b33ebf9270" name="Changes" comment="" />
+      <created>1752240839786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752240839786</updated>
+      <workItem from="1752240840803" duration="23369000" />
+      <workItem from="1752311422600" duration="3447000" />
+      <workItem from="1752327126594" duration="2627000" />
+      <workItem from="1752430826401" duration="9128000" />
+      <workItem from="1752514993373" duration="5834000" />
+      <workItem from="1752528045557" duration="90000" />
+      <workItem from="1752578519172" duration="2853000" />
+      <workItem from="1752662669762" duration="6077000" />
+    </task>
+    <task id="LOCAL-00001" summary="First init - Working copy, paste, multiselect connection edit">
+      <option name="closed" value="true" />
+      <created>1752439956023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752439956023</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First init - Working copy, paste, multiselect connection edit">
+      <option name="closed" value="true" />
+      <created>1752527887123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752527887123</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bug FIXES">
+      <option name="closed" value="true" />
+      <created>1752581827302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752581827302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First init - Working copy, paste, multiselect connection edit" />
+    <MESSAGE value="Bug FIXES" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug FIXES" />
+  </component>
+  <component name="com.gk646.codestats.settings.Save">
+    <option name="commitTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1752439956076" />
+          <option name="linesCode" value="1599" />
+          <option name="totalLines" value="1907" />
+          <option name="info" value="First init - Working copy, paste, multiselect conn" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1752527887170" />
+          <option name="linesCode" value="1608" />
+          <option name="totalLines" value="1916" />
+          <option name="info" value="First init - Working copy, paste, multiselect conn" />
+        </TimePoint>
+      </list>
+    </option>
+    <option name="genericTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1752439956076" />
+          <option name="linesCode" value="1599" />
+          <option name="totalLines" value="1907" />
+          <option name="info" value="13 lip 2025" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1752527887170" />
+          <option name="linesCode" value="1608" />
+          <option name="totalLines" value="1916" />
+          <option name="info" value="14 lip 2025" />
+        </TimePoint>
+      </list>
+    </option>
+  </component>
+</project>

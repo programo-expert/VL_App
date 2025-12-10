@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+    background: #232323;
+}
+
+#toolbar {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    background: #181818;
+    box-shadow: 0 2px 8px #000a;
+}
+
+#toolbar button {
+    font-weight: bold;
+    margin: 0 5px;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+    color: #222;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: #fff;
+}
+
+#toolbar button:hover {
+    background: #e0e0e0;
+}
+
+#app {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    background: #232323;
+}
+
+#canvas-wrap {
+    position: relative;
+    overflow: auto;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    background: #232323;
+}
+
+#board {
+    display: block;
+    /* width i height będą ustawiane przez JS! */
+    margin: auto;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 24px #0008;
+}
+
+#coords-box {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 1.07em;
+    position: absolute;
+    z-index: 20;
+    right: 22px;
+    bottom: 22px;
+    min-width: 128px;
+    padding: 10px 18px;
+    text-align: center;
+    pointer-events: none;
+    color: #fff;
+    border-radius: 7px;
+    background: rgba(30, 30, 30, 0.95);
+    box-shadow: 0 3px 16px #0006;
+}
+
+#modal {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#modal .modal-content {
+    overflow: auto;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 96vw;
+    max-height: 96vh;
+    padding: 2em;
+    color: #fff;
+    border-radius: 10px;
+    background: #23272f;
+}
+
+.hidden {
+    display: none !important;
+}
+
+input, select {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.checkbox-list {
+    overflow-y: auto;
+    /*max-height: 120px;*/
+    max-height: 50vh;
+    padding: 5px;
+    border-radius: 4px;
+    background: #252525;
+}
+
+.rel-row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+    gap: 24px;
+}
+
+.rel-col {
+    min-width: 140px;
+}

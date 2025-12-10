@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Voicelift Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="favicon.ico" rel="icon">
+</head>
+<body>
+<div id="toolbar">
+    <button onclick="gui.addElement('speaker')">Dodaj Głośnik</button>
+    <button onclick="gui.addElement('mic')">Dodaj Mikrofon</button>
+    <button onclick="gui.addElement('beam')">Dodaj Wiązkę</button>
+    <button onclick="gui.addElement('line')">Dodaj linię</button>
+    <button onclick="selection.deleteSelected()">Usuń zaznaczone</button>
+    <button onclick="json.exportJSON()">Eksport JSON</button>
+    <input accept=".json" id="importFile" onchange="json.importJSON(event)" style="display:none" type="file">
+    <button onclick="document.getElementById('importFile').click()">Import JSON</button>
+    <button onclick="config.openGlobalConfig()">Ustawienia globalne</button>
+    <button onclick="clipboard.copy()">Kopiuj</button>
+    <button onclick="clipboard.paste()">Wklej</button>
+
+</div>
+<div id="app">
+    <div id="canvas-wrap" style="position:relative;">
+        <canvas id="board"></canvas>
+        <div id="coords-box"></div>
+    </div>
+</div>
+<div id="speaker-info-box" style="
+    display:none;
+    position:absolute;
+    top:25px;
+    right:25px;
+    min-width:330px;
+    background:#fff;
+    border:2px solid #009688;
+    border-radius:12px;
+    box-shadow:0 2px 18px #0002;
+    z-index:99;
+    padding:16px 24px 12px 24px;
+    font-family:Arial,sans-serif;
+    overflow:auto;
+    max-height: 90vh;
+">
+    <div id="speaker-info-title" style="font-weight:bold;font-size:18px; margin-bottom:10px"></div>
+    <button id="speaker-info-close" style="
+        position:absolute;
+        top:6px;right:8px;
+        border:none;
+        background:transparent;
+        color:#333;
+        font-size:22px;
+        cursor:pointer;
+    ">&times;
+    </button>
+    <div id="speaker-info-table"></div>
+</div>
+
+<div class="hidden" id="modal"></div>
+<script src="utils.js"></script>
+<script src="elements.js"></script>
+<script src="numbering.js"></script>
+<script src="selection.js"></script>
+<script src="keyboard.js"></script>
+<script src="modal.js"></script>
+<script src="config.js"></script>
+<script src="distance.js"></script>
+<script src="logic.js"></script>
+<script src="json.js"></script>
+<script src="menu.js"></script>
+<script src="gui.js"></script>
+<script src="app.js"></script>
+<script src="undo.js"></script>
+<script src="export.csv.js"></script>
+<script src="clipboard.js"></script>
+
+</body>
+</html>
